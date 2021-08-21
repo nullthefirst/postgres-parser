@@ -1,0 +1,23 @@
+{
+  "name": "postgres-parser",
+  "version": "0.1.0",
+  "description": "PostgreSQL database url parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nullthefirst/postgres-parser.git"
+  },
+  "keywords": [
+    "postgres",
+    "javascript"
+  ],
+  "author": "Ninte Dangana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nullthefirst/postgres-parser/issues"
+  },
+  "homepage": "https://github.com/nullthefirst/postgres-parser#readme"
+}
