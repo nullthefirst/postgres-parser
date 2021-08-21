@@ -53,8 +53,4 @@ const databaseUrlPostgresParser = (databaseUrl) => {
   };
 };
 
-// console.log(
-//   JSON.stringify(
-//     databaseUrlPostgresParser('postgres://USER:PASSWORD@HOST:PORT/NAME'),
-//   ),
-// );
+module.exports = databaseUrlPostgresParser;
