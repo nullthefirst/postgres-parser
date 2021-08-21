@@ -1,5 +1,5 @@
 {
-  "name": "postgres-parser",
+  "name": "@usheninte/postgres-parser",
   "version": "0.1.0",
   "description": "PostgreSQL database url parser",
   "main": "index.js",
