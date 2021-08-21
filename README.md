@@ -1,6 +1,6 @@
 # postgres-parser
 
-Parses PostgreSQL database URL string and returns values for `user`, `password`, `host`, `port`, `database` and `name`.
+Parses PostgreSQL database URL string and returns values for `user`, `password`, `host`, `port` and database `name`.
 
 ## Installation
 
@@ -14,6 +14,10 @@ yarn add @usheninte/postgres-parser
 
 ```js
 const dbstring = require('@usheninte/postgres-parser');
+
+const { user, password, host, port, name } = dbstring(
+  'postgres://USER:PASSWORD@HOST:PORT/NAME',
+);
 ```
 
 Output from the following test string `postgres://USER:PASSWORD@HOST:PORT/NAME`
